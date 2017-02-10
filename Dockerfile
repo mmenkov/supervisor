@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:14.04
 MAINTAINER Maxim Menkov <mmenkov@digital-mind.ru>
 
 RUN apt-get update && apt-get install -y supervisor
